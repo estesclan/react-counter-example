@@ -1,0 +1,24 @@
+{
+	"name": "counter-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel -p 1337 public/index.html",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"react": "^16.4.1",
+		"react-dom": "^16.4.1"
+	},
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-react": "^6.24.1",
+		"parcel-bundler": "^1.9.4"
+	}
+}
